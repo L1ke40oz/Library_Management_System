@@ -1,0 +1,22 @@
+USE library_db;
+
+UPDATE book SET description = '本书是数据结构和算法分析的经典教材，全面介绍了数据结构的基本概念、常用算法及其复杂度分析，适合计算机专业学生学习。' WHERE isbn = '9787111528395';
+UPDATE book SET description = '本书采用自顶向下的方法讲解计算机网络原理，从应用层开始逐步深入到物理层，内容丰富且易于理解。' WHERE isbn = '9787111599715';
+UPDATE book SET description = '从程序员的视角详细阐述计算机系统的本质概念，涵盖硬件架构、操作系统、编译链接等核心内容。' WHERE isbn = '9787111544937';
+UPDATE book SET description = 'Java领域的经典著作，全面覆盖Java SE核心技术，包括面向对象、泛型、集合框架、并发编程等内容。' WHERE isbn = '9787111612728';
+UPDATE book SET description = '零基础Python入门书籍，通过实际项目引导读者掌握Python编程，涵盖Web开发、数据可视化等实战内容。' WHERE isbn = '9787115546081';
+UPDATE book SET description = '前端开发必读经典，深入讲解JavaScript语言核心机制、DOM编程、事件处理、Ajax与现代前端开发技术。' WHERE isbn = '9787115545381';
+UPDATE book SET description = '全面介绍Spring Boot框架的实战指南，帮助开发者快速构建生产级别的Spring应用程序。' WHERE isbn = '9787115453686';
+UPDATE book SET description = '国内数据库领域权威教材，系统讲解关系数据库理论、SQL语言、数据库设计与管理等核心知识。' WHERE isbn = '9787040406641';
+UPDATE book SET description = '操作系统领域的经典教材，涵盖进程管理、内存管理、文件系统、I/O系统等操作系统核心概念。' WHERE isbn = '9787111604365';
+UPDATE book SET description = '人工智能领域的百科全书式教材，全面介绍AI的理论基础、核心算法和应用领域。' WHERE isbn = '9787302513988';
+UPDATE book SET description = '周志华教授的机器学习入门经典，系统介绍机器学习的基本理论、常用算法和实践方法，被称为"西瓜书"。' WHERE isbn = '9787302423287';
+UPDATE book SET description = '深度学习领域的奠基性著作，由三位深度学习先驱撰写，全面介绍深度学习的数学基础和核心技术。' WHERE isbn = '9787115461476';
+UPDATE book SET description = '中国古典文学巅峰之作，以贾宝玉、林黛玉的爱情悲剧为主线，展现封建社会的兴衰历程。' WHERE isbn = '9787020002207';
+UPDATE book SET description = '魔幻现实主义文学代表作，讲述布恩迪亚家族七代人的传奇故事，反映拉丁美洲百年沧桑。' WHERE isbn = '9787544253994';
+UPDATE book SET description = '余华代表作，以简洁有力的笔触讲述主人公福贵历经苦难却依然坚韧活着的人生故事。' WHERE isbn = '9787506365437';
+UPDATE book SET description = '中国科幻里程碑式作品，讲述地球文明与三体文明之间的史诗级对抗，想象宏大、逻辑严密。' WHERE isbn = '9787229042066';
+UPDATE book SET description = '钱钟书先生的讽刺小说杰作，以幽默犀利的笔法描绘了抗战时期知识分子的生活百态。' WHERE isbn = '9787020024759';
+UPDATE book SET description = '高等院校通用数学教材，系统讲解微积分的基本理论和方法，是理工科学生的必修课程用书。' WHERE isbn = '9787040396638';
+UPDATE book SET description = '线性代数基础教材，涵盖行列式、矩阵、向量空间、线性变换、特征值等核心内容。' WHERE isbn = '9787040396621';
+UPDATE book SET description = '概率论与数理统计经典教材，系统介绍概率论基础、随机变量、统计推断等内容。' WHERE isbn = '9787040238969';
